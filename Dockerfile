@@ -51,6 +51,9 @@ run	pip install s3cmd==1.1.0-beta3
 run	pip install python-magic==0.4.6
 run	/bin/echo -e '[default]\naccess_key=$AWS_ACCESS_KEY\nsecret_key=$AWS_SECRET_KEY\n' > /.s3cfg
 
+# The things I use
+run apt-get install -y -q emacs23-nox
+
 # Runtime dependencies
 run	apt-get install -y -q iptables
 run	apt-get install -y -q lxc
